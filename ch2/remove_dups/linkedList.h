@@ -2,6 +2,7 @@
 #define LINKEDLIST_H
 #include <iostream>
 #include <vector>
+#include <stdio.h>
 using namespace std;
 class linkedList{
     private:
@@ -9,7 +10,7 @@ class linkedList{
             int data;
             node *next;
         };
-        unsigned int size;
+        int s;
         node *start;
     public:
         linkedList(int t);
