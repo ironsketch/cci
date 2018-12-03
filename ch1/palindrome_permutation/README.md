@@ -5,4 +5,5 @@ Given a string, write a function to check if it is a permutation of a plaindrome
 ## EXAMPLE
 
 Input:  Tact Coa
+
 Output: True (permutations: "taco cat", "atco cta", etc.)
