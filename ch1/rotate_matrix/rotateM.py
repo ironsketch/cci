@@ -1,15 +1,10 @@
-def setArrSize(row, col):
-    tmp = []
-    for i in range (0, col):
-        for j in range (0, row):
-            tmp[i][j].append(0)
-    return tmp
+import numpy as np
 
 def rotate(arr):
-    tmp = setArrSize(len(arr[0]), len(arr))
+    tmp = np.zeros((len(arr), len(arr[0])), dtype=np.int32)
     for i in range(0, len(arr)):
-        for j in range(len(arr[0]), 0, -1):
-            tmp[abs(len(arr[0]) - j)] = arr[i][j]
+        for j in range(0, len(arr[0])):
+            tmp[i, abs(len(arr[0]) - j - 1)] = arr[i][j]
     return tmp
 
 def main():
