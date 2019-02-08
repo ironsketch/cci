@@ -19,5 +19,7 @@ int main(){
     ll.insert(2);
     cout << "The Singly LinkedList before duplication removal:" << endl;
     ll.prnt();
+    ll.removeDups();
+    ll.prnt();
     return 0;
 }

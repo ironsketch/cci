@@ -1,12 +1,8 @@
 #include "linkedList.h"
 
 linkedList::linkedList(int t){
-    cout << "before everything" << endl;
-    printf("Start is at %p", start);
     start->data = t;
-    cout << "data = t" << endl;
     start->next = nullptr;
-    cout << "its a 0" << endl;
     s = 0;
 }
 
@@ -24,7 +20,7 @@ void linkedList::insert(int t){
 void linkedList::prnt(){
     node *traverse = start;
     while(traverse->next != nullptr){
-        cout << traverse->data;
+        cout << traverse->data << " ";
         traverse = traverse->next;
     }
     cout << traverse->data << endl;

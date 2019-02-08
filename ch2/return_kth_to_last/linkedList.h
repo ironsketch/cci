@@ -9,12 +9,12 @@ class linkedList{
         void insert(int t);
         void p();
         int kth(int k);
-        int size();
+        int size;
     private:
         struct node{
             int data;
             node *next;
         };
-        node *start;
+        node *start = new node;
 };
 #endif
