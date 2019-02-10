@@ -19,9 +19,10 @@ void linkedList::insert(int t){
 void linkedList::prnt(){
     node *trav = start;
     while(trav != nullptr){
-        cout << trav->data << " " << endl;
+        cout << trav->data << " ";
         trav = trav->next;
     }
+    cout << endl;
 }
 
 void linkedList::swap(node *first, node *second){
@@ -32,23 +33,13 @@ void linkedList::swap(node *first, node *second){
 
 void linkedList::partition(int p){
     node *trav = start;
-    node *end = start;
-    int s = size() - 1;
-
-    while(end->next != nullptr){
-        end = end->next;
-    }
-
-    for(int i = 0; i < s; i++){
-        cout << "data: ";
-        if(trav->data >= p){
-            cout << trav->data << endl;
-            swap(trav, end);
-        } else if(trav->data < p){
-            cout << trav->data << endl;
+    node *temp = new node;
+    while(trav != nullptr){
+        if(trav->data <= p){
+            
         }
-        trav = trav->next;
     }
+
 }
 
 int linkedList::size(){

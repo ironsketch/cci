@@ -15,8 +15,8 @@ class linkedList{
             int data;
             node *next;
         };
-        node *start;
-        void move(node *first, node *second);
+        node *start = new node;
+        void swap(node *first, node *second);
 };
 
 #endif
