@@ -30,7 +30,7 @@ void linkedList::p(){
 
 int linkedList::kth(int k){
     node *trav = start;
-    for(int i = 0; i < k; i++){
+    for(int i = 0; i < abs(k - size); i++){
         trav = trav->next;
     }
     return trav->data;
