@@ -1,16 +1,18 @@
 public class URLify{
-    public static char[] URLify(char[] url){
-        for(int i = 0; i < url.length; i++){
-            if(url[i] == ' '){
-
+    public static String URLify(String url){
+        String tmp = "";
+        for(int i = 0; i < url.length(); i++){
+            if(url.charAt(i) == ' '){
+                tmp += "%20";
+            } else {
+                tmp += url.charAt(i);
             }
         }
-        return url;
+        return tmp;
     }
 
     public static void main(String[] args){
-        String a = "Mr John Smith      ";
-        char[] b = a.toCharArray();
-        System.out.println(URLify(b));
+        String a = "Mr John Smith";
+        System.out.println(URLify(a));
     }
 }
