@@ -35,7 +35,7 @@ Chapters I want to/have complete
     - c++ Done
   - 1.6
     - Python Done (04/08/19 19:41)
-    - Java
+    - Java Done (04/08/19 20:56)
     - c++ Done
   - 1.7
     - Python Done
