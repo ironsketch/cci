@@ -1,11 +1,12 @@
 def stringComp(a):
     tmp = ""
+    count = 1
     for i in range (len(a) - 1):
-        count = 0
         if(a[i] == a[i + 1]):
             count += 1;
         else:
             tmp += a[i] + str(count)
+            count = 1
     return tmp
 
 def main():
