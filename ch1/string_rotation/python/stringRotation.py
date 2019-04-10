@@ -5,7 +5,7 @@ def stringRotation(word1, word2):
         if word1 == word2:
             return True
         else:
-            word2 = word2[1:5] + word2[0]
+            word2 = word2[1:len(word2)] + word2[0]
     return False
 
 def main():

@@ -2,18 +2,23 @@ import java.util.*;
 import java.util.Random;
 
 public class ZeroM{
+
+    // Find all the 0's
     public static ArrayList<ArrayList<Integer> > ZeroM(ArrayList<ArrayList<Integer> > orig){
+        // Create a deep copy
         ArrayList<ArrayList<Integer> > copy = copyArr(orig);
         for(int i = 0; i < orig.size(); i++){
             for(int j = 0; j < orig.get(0).size(); j++){
                 if(orig.get(i).get(j) == 0){
-                   copy = zeroOut(copy, i, j); 
+                    // Zero out the ith column and jth row
+                    copy = zeroOut(copy, i, j); 
                 }
             }
         }
         return copy;
     }
 
+    // Create a deep copy of the array list
     public static ArrayList<ArrayList<Integer> > copyArr(ArrayList<ArrayList<Integer> > arr){
         ArrayList<ArrayList<Integer> > copy = new ArrayList<ArrayList<Integer> >();
         for(int i = 0; i < arr.size(); i++){
@@ -26,6 +31,7 @@ public class ZeroM{
         return copy;
     }
 
+    // Where we zero the ith column and jth row
     public static ArrayList<ArrayList<Integer> > zeroOut(ArrayList<ArrayList<Integer> > arr, int i, int j){
         for(int a = 0; a < arr.size(); a++){
             for(int b = 0; b < arr.get(0).size(); b++){
@@ -37,6 +43,7 @@ public class ZeroM{
         return arr;
     }
 
+    // Generate a new random array
     public static ArrayList<ArrayList<Integer> > generate(int size){
         ArrayList<ArrayList<Integer> > newArr = new ArrayList<ArrayList<Integer> >();
 
@@ -52,10 +59,11 @@ public class ZeroM{
         return newArr;
     }
 
+    // Print the array
     public static void p(ArrayList<ArrayList<Integer> > arr){
         for(int i = 0; i < arr.size(); i++){
             for(int j = 0; j < arr.get(0).size(); j++){
-                System.out.print(arr.get(i).get(j));
+                System.out.print(arr.get(i).get(j) + " ");
             }
             System.out.println();
         }
