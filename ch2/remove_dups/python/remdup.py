@@ -22,36 +22,32 @@ class LinkedList:
         print(tmp.dataVal)
 
     def remDups(self):
-        l = list()
+        isUnique = []
         tmp = self.headVal
-        l.append(tmp.dataVal)
-        while(tmp.nextVal.nextVal != None):
-            if(tmp.nextVal.dataVal not in l):
-                l.append(tmp.nextVal.dataVal)
+        isUnique.append(tmp.dataVal)
+        while(tmp.nextVal != None):
+            if(tmp.nextVal.dataVal not in isUnique):
+                isUnique.append(tmp.nextVal.dataVal)
+                tmp = tmp.nextVal
             else:
-                tmp.nextVal = tmp.nextVal.nextVal
-            tmp = tmp.nextVal
-        if(tmp.nextVal.dataVal in l):
-            tmp.nextVal = None
+                while(tmp.nextVal != None and tmp.nextVal.dataVal in isUnique):
+                    tmp.nextVal = tmp.nextVal.nextVal
 
 ll = LinkedList(0)
-ll.add(1)
-ll.add(2)
-ll.add(3)
-ll.add(1)
+ll.add(0)
+ll.add(7)
+ll.add(7)
 ll.add(4)
-ll.add(5)
-ll.add(66)
+ll.add(55)
+ll.add(666)
 ll.add(42)
-ll.add(9)
-ll.add(100)
-ll.add(100)
-ll.add(7)
-ll.add(7)
-ll.add(7)
-ll.add(7)
-ll.add(7)
+ll.add(42)
+ll.add(42)
+ll.add(42)
+ll.add(42)
+ll.add(42)
+ll.add(1)
+ll.add(1)
 ll.p()
 ll.remDups()
 ll.p()
-
