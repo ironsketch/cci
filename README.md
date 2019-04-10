@@ -71,8 +71,17 @@ Chapters I want to/have complete
     - Java
     - c++
   - 2.6
+    - Python Done (04/10/19 11:06)
+    - Java
+    - c++
   - 2.7
+    - Python
+    - Java
+    - c++
   - 2.8
+    - Python
+    - Java
+    - c++
   - 3.1
   - 3.2
   - 3.3
