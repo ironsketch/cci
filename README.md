@@ -52,15 +52,15 @@ Chapters I want to/have complete
 - CH2
   - 2.1
     - Python Done (04/09/19 17:49)
-    - Java
+    - Java Done (04/13/19 12:51)
     - c++ Done
   - 2.2
     - Python Done (04/09/19 19:18)
-    - Java
+    - Java Done (04/13/19 13:08)
     - c++ Done
   - 2.3
     - Python Done (04/09/19 20:14)
-    - Java
+    - Java 
     - c++ Done
   - 2.4
     - Python
@@ -75,11 +75,11 @@ Chapters I want to/have complete
     - Java
     - c++
   - 2.7
-    - Python
+    - Python Done (04/10/19 11:24)
     - Java
     - c++
   - 2.8
-    - Python
+    - Python 
     - Java
     - c++
   - 3.1
