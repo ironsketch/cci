@@ -102,6 +102,11 @@ public class LinkedList{
                 tmp = tmp.next;
             }
         }
+        tmp = head;
+        if(tmp.data >= p){
+            this.insert(tmp.data);
+            head = tmp.next;
+        }
     }
     public void p(){
         Node tmp = head;

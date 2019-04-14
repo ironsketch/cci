@@ -33,10 +33,10 @@ void linkedList::swap(node *first, node *second){
 
 void linkedList::partition(int p){
     node *trav = start;
-    node *temp = new node;
-    while(trav != nullptr){
-        if(trav->data <= p){
-            
+    while(trav->next-> != nullptr){
+        if(trav->next->data >= p){
+            this.insert(trav->data);
+            trav->next = 
         }
     }
 
