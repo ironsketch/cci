@@ -1,7 +1,7 @@
 #include "linkedList.h"
 
 int main(){
-    linkedList ll(3);
+    linkedList ll(44);
     ll.insert(5);
     ll.insert(8);
     ll.insert(5);

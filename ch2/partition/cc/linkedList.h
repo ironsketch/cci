@@ -17,6 +17,7 @@ class linkedList{
         };
         node *start = new node;
         void swap(node *first, node *second);
+        int sizeOfList;
 };
 
 #endif

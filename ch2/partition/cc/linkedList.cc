@@ -3,6 +3,7 @@
 linkedList::linkedList(int t){
     start->data = t;
     start->next = nullptr;
+    sizeOfList = 1;
 }
 
 void linkedList::insert(int t){
@@ -14,6 +15,7 @@ void linkedList::insert(int t){
         trav = trav->next;
     }
     trav->next = newNode;
+    sizeOfList++;
 }
 
 void linkedList::prnt(){
@@ -33,21 +35,22 @@ void linkedList::swap(node *first, node *second){
 
 void linkedList::partition(int p){
     node *trav = start;
-    while(trav->next-> != nullptr){
+    int count = sizeOfList;
+    for(int i = count; i > 0; i--){
         if(trav->next->data >= p){
-            this.insert(trav->data);
-            trav->next = 
+            insert(trav->next->data);
+            trav->next = trav->next->next;
+            sizeOfList--;
+        } else {
+            trav = trav->next;
         }
     }
-
-}
-
-int linkedList::size(){
-    node *trav = start;
-    int count = 0;
-    while(trav != nullptr){
-        count++;
-        trav = trav->next;
+    trav = start;
+    if(trav->data >= p){
+        insert(trav->data);
+        start = trav->next;
     }
-    return count;
+}
+int linkedList::size(){
+    return sizeOfList;
 }
