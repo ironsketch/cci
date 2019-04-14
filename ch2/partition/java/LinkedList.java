@@ -106,6 +106,7 @@ public class LinkedList{
         if(tmp.data >= p){
             this.insert(tmp.data);
             head = tmp.next;
+            size--;
         }
     }
     public void p(){

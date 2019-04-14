@@ -21,6 +21,7 @@ class LinkedList:
         while(n - 1 > 0):
             tmp = tmp.nextVal
             n -= 1
+        self.size -= 1
         tmp.nextVal = tmp.nextVal.nextVal
 
     def swap(self, n1, n2):
@@ -28,13 +29,21 @@ class LinkedList:
         n1.dataVal = n2.dataVal
         n2.dataVal = tmp
 
-    def part(self, x):
+    def part(self, p):
         tmp = self.headVal
         count = 0
-        while(count <= (self.size - 1) / 2):
-            if(tmp.dataVal >= )
-            tmp = tmp.nextVal
-            count += 1
+        for i in range(self.size):
+            if(tmp.nextVal.dataVal >= p):
+                self.add(tmp.nextVal.dataVal)
+                self.size -= 1
+                tmp.nextVal = tmp.nextVal.nextVal
+            else:
+                tmp = tmp.nextVal
+        tmp = self.headVal
+        if(tmp.dataVal >= p):
+            self.add(tmp.dataVal)
+            self.size -= 1
+            self.headVal = tmp.nextVal
 
     def p(self):
         tmp = self.headVal
@@ -44,15 +53,16 @@ class LinkedList:
         print(tmp.dataVal)
 
 def main():
-    ll = LinkedList(0)
-    ll.add(1)
+    ll = LinkedList(33)
     ll.add(2)
-    ll.add(3)
-    ll.add(4)
+    ll.add(75)
     ll.add(5)
-    ll.add(6)
+    ll.add(1)
+    ll.add(100)
+    ll.add(0)
     ll.p()
-    ll.part(3)
+    ll.part(5)
+    ll.p()
 
 if __name__ == "__main__":
     main()
