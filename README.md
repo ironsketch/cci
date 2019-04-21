@@ -86,11 +86,11 @@ Chapters I want to/have complete
     - Python Done (04/20/19 16:27)
     - Java Done (04/20/19 19:04)
   - 3.2
-    - Python 
-    - Java
-  - 3.3
     - Python
-    - Java
+    - Java 
+  - 3.3
+    - Python Done (04/20/19 20:04)
+    - Java Done (04/20/19 20:53)
   - 3.4
     - Python
     - Java
