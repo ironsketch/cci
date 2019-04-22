@@ -98,8 +98,8 @@ Chapters I want to/have complete
     - Python Done (04/21/19 13:42)
     - Java Done (04/21/19 14:08)
   - 3.6
-    - Python 
-    - Java
+    - Python Done (04/22/19 11:41)
+    - Java Done (04/21/19 17:57)
   - 4.1
   - 4.2
   - 4.3
