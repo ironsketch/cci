@@ -12,7 +12,13 @@ I will be slowly adding in more and more questions from this as I do them in dif
 
 Chapters I want to/have complete
 
-- CH1
+[CH1](#ch1) | [CH2](#ch2) | [CH3](#ch3) | [CH4](#ch4) | [CH6](#ch6)
+
+[CH7](#ch7) | [CH9](#ch9) | [CH10](#ch10) | [CH11](#ch11) | [CH13](#ch13)
+
+[CH14](#ch14) | [CH15](#ch15) 
+
+- CH1<a name="ch1"></a>
   - 1.1 
     - Python Done
     - Java Done
@@ -49,7 +55,7 @@ Chapters I want to/have complete
     - Python Done
     - Java
     - c++ Done
-- CH2
+- CH2<a name="ch2"></a>
   - 2.1
     - Python Done (04/09/19 17:49)
     - Java Done (04/13/19 12:51)
@@ -82,6 +88,7 @@ Chapters I want to/have complete
     - Python 
     - Java
     - c++
+- CH3<a name="ch3"></a>
   - 3.1
     - Python Done (04/20/19 16:27)
     - Java Done (04/20/19 19:04)
@@ -100,6 +107,7 @@ Chapters I want to/have complete
   - 3.6
     - Python Done (04/22/19 11:41)
     - Java Done (04/21/19 17:57)
+- CH4<a name="ch4"></a>
   - 4.1
     - Python
     - Java Done (05/03/19 21:27)
@@ -136,6 +144,7 @@ Chapters I want to/have complete
   - 4.12
     - Python
     - Java
+- CH6<a name="ch6"></a>
   - 6.1
   - 6.2
   - 6.3
@@ -146,6 +155,7 @@ Chapters I want to/have complete
   - 6.8
   - 6.9
   - 6.10
+- CH7<a name="ch7"></a>
   - 7.1
   - 7.2
   - 7.3
@@ -158,6 +168,7 @@ Chapters I want to/have complete
   - 7.10
   - 7.11
   - 7.12
+- CH9<a name="ch9"></a>
   - 9.1
   - 9.2
   - 9.3
@@ -166,6 +177,7 @@ Chapters I want to/have complete
   - 9.6
   - 9.7
   - 9.8
+- CH10<a name="ch10"></a>
   - 10.1
   - 10.2
   - 10.3
@@ -177,12 +189,14 @@ Chapters I want to/have complete
   - 10.9
   - 10.10
   - 10.11
+- CH11<a name="ch11"></a>
   - 11.1
   - 11.2
   - 11.3
   - 11.4
   - 11.5
   - 11.6
+- CH13<a name="ch13"></a>
   - 13.1
   - 13.2
   - 13.3
@@ -191,6 +205,7 @@ Chapters I want to/have complete
   - 13.6
   - 13.7
   - 13.8
+- CH14<a name="ch14"></a>
   - 14.1
   - 14.2
   - 14.3
@@ -198,6 +213,7 @@ Chapters I want to/have complete
   - 14.5
   - 14.6
   - 14.7
+- CH15<a name="ch15"></a>
   - 15.1
   - 15.2
   - 15.3
