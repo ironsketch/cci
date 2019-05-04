@@ -101,17 +101,41 @@ Chapters I want to/have complete
     - Python Done (04/22/19 11:41)
     - Java Done (04/21/19 17:57)
   - 4.1
+    - Python
+    - Java Done (05/03/19 21:27)
   - 4.2
+    - Python
+    - Java
   - 4.3
+    - Python
+    - Java
   - 4.4
+    - Python
+    - Java
   - 4.5
+    - Python
+    - Java
   - 4.6
+    - Python
+    - Java
   - 4.7
+    - Python
+    - Java
   - 4.8
+    - Python
+    - Java
   - 4.9
+    - Python
+    - Java
   - 4.10
+    - Python
+    - Java
   - 4.11
+    - Python
+    - Java
   - 4.12
+    - Python
+    - Java
   - 6.1
   - 6.2
   - 6.3
