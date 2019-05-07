@@ -20,14 +20,22 @@ public class Tree{
         }
     }
     public boolean isBalanced(){
-        return isBalR(head) > 1;
+        return isBalR(head);
     }
-    public int isBalR(Node n){
-        if(n.left != null)
-            return 1 + isBalR(n.left);
-        if(n.right != null)
-            return -1 + isBalR(n.left);
-        else
+    public boolean isBalR(Node n){
+        int l;
+        int r;
+        if(n == null)
+            return true;
+        l = height(n.left);
+        r = height(n.right);
+        if(Math.abs(l - r) <= 1 && isBalR(n.left) && isBalR(n.right))
+            return true;
+        return false;
+    }
+    public int height(Node n){
+        if(n == null)
             return 0;
+        return 1 + Math.max(height(n.left), height(n.right));
     }
 }

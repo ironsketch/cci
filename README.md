@@ -119,10 +119,10 @@ Chapters I want to/have complete
     - Java Done (05/05/19 14:10)
   - 4.4
     - Python
-    - Java
+    - Java Done (05/05/19 17:34) ... kinda
   - 4.5
     - Python
-    - Java
+    - Java Done (05/05/19 18:47)
   - 4.6
     - Python
     - Java
