@@ -1,4 +1,6 @@
 import java.util.*;
+        t.p();
+        topoligcal sort
 
 public class Build{
     public static void main(String[] args){

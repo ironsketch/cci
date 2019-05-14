@@ -166,6 +166,8 @@ Chapters I want to/have complete
   - 7.8
   - 7.9
   - 7.10
+    - Python
+    - Java Done (05/14/19 13:56)
   - 7.11
   - 7.12
 - CH9<a name="ch9"></a>
