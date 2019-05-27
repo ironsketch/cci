@@ -1,0 +1,36 @@
+Dominos
+
+There is an 8x8 chessboard inwhich two diagonally opposite corners have been cut off. You are given 31 dominos, and a single domino can cover exatly two squares.Can you use the 31 dominos to cover the entire board? Prove your answer (by providing an example or showing why it's impossible)
+
+First, when it says diagonally opposite corners, does not actually specifiy that it only cut off a square from the board. These corners can be of any size.
+
+So then that leads to the question of how much can we cut that board and still cover it with dominos.
+
+Mafff:
+(8 * 8 - 2) / 2 = 31
+
+It's not that simple because you have to lay out the dominos but it gives me an idea.
+
+   X  [] [] [] [] [] [] []
+   [] [] [] [] [] [] [] []
+   [] [] [] [] [] [] [] []
+   [] [] [] [] [] [] [] []
+   [] [] [] [] [] [] [] []
+   [] [] [] [] [] [] [] []
+   [] [] [] [] [] [] [] []
+   [] [] [] [] [] [] []  X
+
+To solve this progamatically I would use a backtracking algorithm
+
+But without that take notice that the lines on the outside are not even so you will need to manipulate the placement of the dominos.
+
+    X  d  [d d] [d d] [d d]
+    D  d  [d d] [d d] D  d
+    D  [d d] d  [d d] D  d
+    d  D  [] d  [] D  d  D
+    d  D  [] [] [] D  d  D
+    D  d  [] [] [] d  D  d
+    D  d  [] [] [] d  D  d
+    [d d] [] [] [] [d d] X
+
+    It may not be possible!

@@ -1,0 +1,13 @@
+Basketball
+
+You have a basketball hoop and someone says that you can play one of two games.
+
+Game 1: You get one shot to make the hoop.
+Game 2: You get three shots and you have to make two of the three shots.
+
+If p is the probability of making a particular shot, for which values of p should you pick one game or the other?
+
+Well I noticed that If you pick game 1 you have to hit the shot 100% of the time.
+Game 2 you have to hit the shots 66.66% of the time.
+
+Thinking this over, unless the probabilty is 100% that you will make the shot you should always go for game 2.

@@ -145,12 +145,12 @@ Chapters I want to/have complete
     - Python
     - Java
 - CH6<a name="ch6"></a>
-  - 6.1
-  - 6.2
-  - 6.3
-  - 6.4
-  - 6.5
-  - 6.6
+  - 6.1 Done (05/27/19 8:39)
+  - 6.2 Done (05/27/19 8:44)
+  - 6.3 Done kinda...
+  - 6.4 Done (05/27/19 9:06)
+  - 6.5 Done (05/27/19 9:11)
+  - 6.6 Done kinda...
   - 6.7
   - 6.8
   - 6.9
@@ -160,6 +160,8 @@ Chapters I want to/have complete
     - Python
     - Java Done (05/14/19 15:25)
   - 7.2
+    - Python
+    - Java Done (05/14/19 15:51)
   - 7.3
   - 7.4
   - 7.5

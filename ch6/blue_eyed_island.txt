@@ -1,0 +1,10 @@
+Blue-Eyed island
+
+A bunch of people are living on an island, when a visitor comes with a strange order: all blue-eyed people must leave the isalnd as soon as possible. There will be a flight out at 8pm every evening. Each person can see everyone else's eye color, but they do not know their own (nor is anyone allowed to tell them). Additionally, they do not know how many people have blue eyes, although they do know that at least one person does. How many days will it take the blue-eyed people to leave.
+
+First off I don't like this question. Why are they leaving? Why only blue eyed people. If it is a natural disaster about to occur, every one gets off!
+It would take the size of the single plane divided into the people days to finish.
+
+So if there are 2063 people on the island and each plane holds 52 people, it would take 40 days
+
+Otherwise at this time I do not have a clue how to answer this...

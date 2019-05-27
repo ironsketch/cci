@@ -1,6 +1,4 @@
 import java.util.*;
-        t.p();
-        topoligcal sort
 
 public class Build{
     public static void main(String[] args){
@@ -19,8 +17,5 @@ public class Build{
         Pair<String, String> p5 = new Pair<String, String>("d", "c");
 
         build_order(pro, dep);
-    }
-    public String build_order(ArrayList<Projects> p, ArrayList<Pair<String, String>> d){
-
     }
 }
