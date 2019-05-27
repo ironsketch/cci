@@ -1,0 +1,60 @@
+100 lockers
+
+There are 100 closed lockers in a hallway. A man begins by opening all 100 lockers. Next, he closes every second locker. Then, on his third pass, he toggles every third locker (closes if it is open or opens if it is closed). This process continues for 100 passes, such that on each pass the man toggles every ith locker. After his 100th pass in the hallway, in which he toggles on locker #100, how many lockers are open?
+
+a a a a a a a a
+a b a b a b a b
+a b b b a a a b
+a b b b b a a b
+a b b b b b a b
+a b b b b b b b
+a b b b b b b a
+
+a a a a
+a b a b
+a b b b
+a b b a
+
+a a a a a a a a a a
+a b a b a b a b a b
+a b b b a a a b b a
+a b b a a a a a b a
+a b b a b a a a b b
+a b b a b b a a b b
+a b b a b b b a b b
+a b b a b b b b b b
+a b b a b b b b a b
+a b b a b b b b a a
+
+a a a a a
+a b a b a
+a b b b a
+a b b a a
+a b b a b
+
+Every loop adds 2 to each cluster. starting from 2. I made a python program that runs this. I am trying to find a pattern and here it is
+1, 2, 4, 6, 8, 10 etc. of open lockers and 1 in between each of closed.
+
+a = list("a" * 100)
+b = list("a" * 50)
+
+def run(s):
+    count = 1
+    for i in range(len(s)):
+        subcount = count
+        for i in range(len(s)):
+            if (subcount == 0):
+                if (s[i] == 'a'):
+                    s[i] = 'b'
+                else:
+                    s[i] = 'a'
+                subcount = count
+            subcount -= 1
+        count += 1
+
+    print(s.count('a'))
+    print(s.count('b'))
+    print(s)
+
+run(a)
+run(b)

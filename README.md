@@ -151,9 +151,9 @@ Chapters I want to/have complete
   - 6.4 Done (05/27/19 9:06)
   - 6.5 Done (05/27/19 9:11)
   - 6.6 Done kinda...
-  - 6.7
+  - 6.7 
   - 6.8
-  - 6.9
+  - 6.9 Done kinda...
   - 6.10
 - CH7<a name="ch7"></a>
   - 7.1
