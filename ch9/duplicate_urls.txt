@@ -1,0 +1,5 @@
+Duplicate URLs
+
+You have 10 billion URLs. How do you detect the duplicate documents? In this case, assume "duplicate" means that the URLs are identical.
+
+Using a hash set. When there is a new URL submitted, if it already exists during insertion then don't add it.

@@ -1,0 +1,29 @@
+Social Network
+
+How would you design the data structures for a very large social network like Facebook or Linkedin? Describe how you would design an algotrithm to show the shortedt path between two people (e.g. Me->Bob->Susan->Jason->You).
+
+Database for users and passwords.
+
+                            ________
+                           |  USER  | -> Post, comment, react etc.
+                            --------
+                            ||
+                            _________
+                           | Generic | -> Edit their own profile
+                           |  Member |
+                            ---------
+                            ||
+                            ___________
+                           | Moderator | -> moderate posts, comments
+                            -----------
+                            ||
+                            _______
+                           | Admin | -> edit other profiles, delete users
+                            -------
+
+
+When I think of shortest path I think of Wordnet that uses a datastructure to find relatable words.
+
+This would be a directed graph that could be cyclical.
+
+Using a stack I could check breadth first for connections.

@@ -1,0 +1,7 @@
+Web crawler
+
+If you were designing a web crawler, how would you avoid getting into infinite loops?
+
+Using cookies we can set one for each site we visite.
+Just like using a stack and a visited tag
+If we see that cookie we have already visited it!
