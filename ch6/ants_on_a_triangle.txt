@@ -3,6 +3,6 @@ Ants on a triangle
 There are three ants on different vertices of a triangle. What is the probability off collision (between any 2 or all of them)if they start walking on the sides of the triangle? Assume that each ant randomly picks a direction with either direction being equally likely to be chosen, and that they walk at the same speed.
 Similarly, find the pronanility of colliision with n ants on an n-vertex polygon.
 
-the upper bound would be n - 1 for collisions
+the upper bound would be n/2 - 1 for collisions
 the lower bound is 0 collisions if all ants walk the same direction.
 

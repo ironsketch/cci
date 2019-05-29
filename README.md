@@ -185,16 +185,38 @@ Chapters I want to/have complete
   - 9.8
 - CH10<a name="ch10"></a>
   - 10.1
+    - Python Done (05/28/19 17:01)
+    - Java Done (05/28/19 17:24)
   - 10.2
+    - Python
+    - Java
   - 10.3
+    - Python
+    - Java
   - 10.4
+    - Python
+    - Java
   - 10.5
+    - Python
+    - Java
   - 10.6
+    - Python
+    - Java
   - 10.7
+    - Python
+    - Java
   - 10.8
+    - Python
+    - Java
   - 10.9
+    - Python
+    - Java
   - 10.10
+    - Python
+    - Java
   - 10.11
+    - Python
+    - Java
 - CH11<a name="ch11"></a>
   - 11.1
   - 11.2
